@@ -1,0 +1,9 @@
+ul.tabs { margin: 0; padding: 0; float: left; list-style: none; height: 32px; border-bottom: 1px solid #ebeaea; border-left: 1px solid #ebeaea; width: 100%; }
+ul.tabs li { float: left; margin: 0 2px 0 0; padding: 0; height: 31px; line-height: 31px; border: 1px solid #ebeaea; border-left: none; margin-bottom: -1px; overflow: hidden; position: relative; background: #edebeb; }
+ul.tabs li a { text-decoration: none; color: #000; display: block; font-size: 1.0em; padding: 0 20px; outline: none; }
+ul.tabs li.active, ul.tabs li.active a:hover, ul.tabs li.active a, ul.tabs li a:hover { background: #fff; border-bottom: 1px solid #fff; color:#267fcc; }
+/**************************Tab Content CSS**************************/
+.tab_container { border: 1px solid #ebeaea; border-top: none; overflow: hidden; clear: both; float: left; width: 100%; background: #fff; }
+.tab_content { padding: 20px; font-size: 1.2em; line-height:24px; color:#000000; min-height:180px;}
+.tab_content p{padding-bottom:15px;}
+.tab_content:after { font-size:0px; line-height:0px; height:0px; content:'.'; visibility:hidden; display:block; clear:both }
